@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+    border-radius: 5px; /* Закругляем углы */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    border-right: 1px solid #ccc; /* Добавляем разделение между элементами */
+}
+
+.sidebar ul li:last-child {
+    border-right: none; /* Убираем разделение для последнего элемента */
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
+
+
+.content {
+    padding: 20px;
+    width: 100%;
+    min-width: 261px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.report-container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.report-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.info {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.status {
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.status.pending {
+    color: #007bff;
+}
+
+.status.accepted {
+    color: #28a745;
+}
+
+.status.rejected {
+    color: #dc3545;
+}

@@ -1,0 +1,35 @@
+.hero {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.apply-now {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.apply-now h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-apply {
+    background-color: #28a745;
+}
+
+.btn-apply:hover {
+    background-color: #218838;
+}
