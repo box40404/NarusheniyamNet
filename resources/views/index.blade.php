@@ -13,8 +13,4 @@
         <a href="{{ route('leave-statement') }}" class="btn btn-apply">Оставить заявление</a>
     </section>
 
-    @auth
-        <a href="{{ route('logout') }}">Выйти из акка</a>
-    @endauth
-
 </x-layout>
