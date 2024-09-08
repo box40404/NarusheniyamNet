@@ -21,4 +21,9 @@
             <p>{{$statement}}</p>
         @endforeach    
     @endif
+
+    @auth
+        <a href="{{ route('logout') }}">Выйти из акка</a>
+    @endauth
+    
 </x-layout>
